@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:400,600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto" , sans-serif;
+  margin: 50px 0 0;
+  line-height: 1.5;
+}
+
+iframe {
+  max-width: 90%;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 50%;
+}
+
+
+
+section h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.grey {
+  background-color: #ced4da;
+}
+
+.btn {
+  background-color: #495057;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #343a40;
+  color: #dee2e6;
+  display: inline-block;
+  padding: 12px 15px;
+  text-decoration: none;
+  position: center;
+  transition: all 0.1s ease;
+
+}
+
+.btn-ghost {
+  background-color: black;
+  color: #FFDB15;
+  box-shadow: none;
+  border: none;
+}
+
+.btn:active{
+  box-shadow: 0 0 0 #343a40;
+  transform: translate(2px, 2px);
+}
+
+.btn-ghost:active {
+  transform: none;
+}
+
+
+
+/* Nav and Header */
+
+nav {
+  background-color: #6c757d;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.nav-link {
+    color: #dee2e6;
+    text-decoration:none;
+    margin: 0px 15px;
+}
+
+.header-left {
+  padding-right: 20px;
+  width: 60%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 40px;
+}
+
+/* Features Section */
+.feature {
+  background: #6c757d;
+  border-radius: 10px;
+  margin: 0 1.66%;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.feature h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #e9ecef;
+}
+
+.feature p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #e9ecef;
+}
+
+/* Form section */
+form {
+  margin-bottom: 40px;
+}
+
+form .flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form input[type="email"] {
+  border-radius: 5px;
+  border: 0;
+  color: black;
+  display: inline-block;
+  font-size: 14px;
+  flex: 1;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #6c757d;
+  color: #dee2e6;
+  padding: 10px;
+  text-align: center;
+}

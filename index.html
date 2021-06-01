@@ -1,0 +1,130 @@
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="css/landing_page.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <style>
+
+    @media (max-width: 480px) {
+      .header-left, .header-right {
+        width: 100% !important;
+
+      }
+
+      .header-right {
+        order: 1;
+      }
+
+      .header-left {
+        order: 0;
+        padding-left: 20px;
+        text-align: center;
+      }
+
+      .header-left h1 {
+        display: none;
+      }
+
+      .feature {
+        margin: 10px;
+        width: 100%;
+      }
+
+      .flex input {
+        margin: 5px 10px;
+        width: 100%;
+      }
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+  </style>
+
+  </head>
+
+  <header id="header">
+    <nav id="nav-bar">
+      <a href=#header class="nav-link">Deals</a>
+      <a href=#features class="nav-link">Features</a>
+      <a href=#video class="nav-link">Video</a>
+      <a href=#join class="nav-link">Join</a>
+      </nav>
+
+
+    <div class="container">
+      <div class="header-left">
+      <h1>
+        Xiaomi Air Inflator
+      </h1>
+      <p>
+         <h2>Portable Electric Air Compressor</h2>
+        <p>
+        Wherever you go, be prepared. Go further and don't be afraid of having a puncture.
+        The high precision alloy allows compression up to 150 psi to measure the necessary
+        air force for road bikes as well as more common bikes.
+      </p>
+      <a class="btn" href="#">
+      BEST DEALS</a>
+      </div>
+      <div class="header-right">
+          <img id="header-img" src="https://images-na.ssl-images-amazon.com/images/I/41lskoN8llL._AC_SL1000_.jpg" alt="air_inflator"/>
+      </div>
+
+    </div>
+
+
+
+  </header>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="container">
+      <div class="feature">
+        <h2>Preparation is key</h2>
+        <p> Check tire pressure and anticipate unexpected problems. With the changing seasons and temperatures, it is important to keep your tire pressure up to date. Too low a pressure can be dangerous. If at any time a puncture occurs, My Portable Electric Air Compressor is there to help you.</p>
+      </div>
+      <div class="feature">
+        <h2>Explore without limits</h2>
+        <p>Compatible with a portable charger. Travel requires careful preparation. My Portable does not need to be plugged in to work. It is compact and lightweight and easy to carry in your bag.</p>
+      </div>
+      <div class="feature">
+        <h2>It's easy, keep up the pressure</h2>
+        <p>Don't worry about pressure when you inflate a ball. My Portable accurately measures psi while pumping.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-wrapper">
+  <h2>Video</h2>
+  <div class="container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/KiaJi-QTQ4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="join" class="grey">
+  <div class="container">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>Get the lastest news</h2>
+      <div class="flex">
+        <input id="email" name="email" type="email" placeholder="Enter your email..."/>
+        <input id="submit" type="submit" class="btn btn-ghost" value="Submit" />
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  Made with HTML & CSS by Alexis Solano P
+</footer>
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
